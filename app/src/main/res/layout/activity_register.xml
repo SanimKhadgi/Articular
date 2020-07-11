@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".Activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            style="@style/marginleftright"
+            android:id="@+id/logo2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FAF9F9"
+            android:textSize="42dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etFullName"
+            android:background="@drawable/input_design"
+            android:hint="  Full Name"
+            android:textColorHint="#fff"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_marginTop="60dp"
+            style="@style/marginleftright"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etEmail"
+            android:background="@drawable/input_design"
+            android:hint="  Email Address"
+            android:textColorHint="#fff"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_email"
+            android:layout_marginTop="6dp"
+            style="@style/marginleftright"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etPassword"
+            android:background="@drawable/input_design"
+            android:hint="  Password"
+            android:textColorHint="#fff"
+            android:drawableLeft="@drawable/ic_password"
+            android:layout_marginTop="6dp"
+            style="@style/marginleftright"
+            android:textColor="#fff"
+            android:inputType="textPassword"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/etPhone"
+            android:background="@drawable/input_design"
+            android:hint="  Phone Name"
+            android:textColorHint="#fff"
+            android:drawableLeft="@drawable/ic_phone"
+            android:layout_marginTop="6dp"
+            style="@style/marginleftright"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            style="@style/marginleftright"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorText" />
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"></ProgressBar>
+
+    </LinearLayout>
+</LinearLayout>

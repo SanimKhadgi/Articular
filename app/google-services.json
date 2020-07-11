@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "519345430588",
+    "firebase_url": "https://articular-8fff3.firebaseio.com",
+    "project_id": "articular-8fff3",
+    "storage_bucket": "articular-8fff3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519345430588:android:a506a4fba7e24aafc6a339",
+        "android_client_info": {
+          "package_name": "com.sanim.articular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519345430588-0dnagg5mrecsmvmntvjoqkvlqhepvgi9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanim.articular",
+            "certificate_hash": "5aeeb0c6a1d9a78f4488394ab6aaf79f70433734"
+          }
+        },
+        {
+          "client_id": "519345430588-g1ugd0pbfn2rijo9p7rcucnl1rda6g5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1D_UNz36ZBrjjz7_kGYQ0ljRkFyHN8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519345430588-g1ugd0pbfn2rijo9p7rcucnl1rda6g5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#EBFF655B"
+    tools:context=".Activity.MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_title"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noInternet"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No Internet Connection"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tryAgain"
+        android:layout_marginTop="15dp"
+       android:visibility="gone"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Try Again"
+        android:textSize="24sp"/>
+
+</LinearLayout>

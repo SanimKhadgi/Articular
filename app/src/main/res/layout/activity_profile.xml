@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project_title"
+        android:background="@drawable/horizontal_line"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:textColor="#fff"
+        android:gravity="center_horizontal" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile_picture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_name"
+        android:layout_marginTop="12dp"
+        style="@style/marginleftright"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_email"
+        android:layout_marginTop="12dp"
+        style="@style/marginleftright"
+        android:text="Email"
+        android:textColor="#000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <ProgressBar
+        android:id="@+id/progressbar2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        style="@style/marginleftright">
+
+       <TextView
+           android:textColor="#000"
+           android:text="Profile"
+           android:id="@+id/txt_profile_update"
+           android:textSize="20dp"
+           android:textStyle="bold"
+           android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+           />
+        <TextView
+            android:textColor="#000"
+            android:text="About Us"
+            android:id="@+id/txt_about_us"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            />
+
+        <TextView
+            android:textColor="#000"
+            android:text="Location"
+            android:textSize="20dp"
+            android:id="@+id/txt_location"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            />
+
+        <TextView
+            android:textColor="#000"
+            android:text="Delete Profile"
+            android:textSize="20dp"
+            android:id="@+id/txt_delete_user"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            />
+
+        <TextView
+            android:textColor="#000"
+            android:text="Logout"
+            android:id="@+id/txt_logout"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:drawableRight="@drawable/ic_baseline_play_arrow_24"
+            />
+
+    </TableLayout>
+</LinearLayout>

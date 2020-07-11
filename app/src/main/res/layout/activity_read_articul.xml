@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ReadArticulActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/horizontal_line"
+            android:text="@string/project_title"
+            android:id="@+id/txt_novel_list"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_artical_title"
+            android:text="Book NAME"
+            android:layout_marginTop="12dp"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:textColor="#F50606"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image1"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_marginTop="6dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_content1"
+            android:textSize="22dp"
+            android:layout_marginTop="12dp"
+            style="@style/marginleftright"
+            android:text="Content lies here for the novel with out any problem"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/image2"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article_content2"
+            android:textSize="22dp"
+            android:layout_marginTop="12dp"
+            style="@style/marginleftright"
+            android:text="Content lies here for the novel with out any problem"
+            android:textColor="#000000"/>
+    </LinearLayout>
+</ScrollView>

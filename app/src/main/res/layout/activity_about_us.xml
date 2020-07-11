@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_title"
+            android:background="#000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#FA0000"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            style="@style/marginleftright"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/horizontal_line"
+            android:layout_marginTop="12dp"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/aboutus1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/marginleftright"
+            android:layout_marginTop="6dp"
+            android:inputType="textMultiLine"
+            android:text="Articular is a private ORganization establish at Nepal. Articuno was establish at year 2020 as a way for people to enjoy and read many different kinds of books As People are struck in their home, the application provide a fun way for people to learn"
+            android:textColor="#000"
+            android:textStyle="italic"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/marginleftright"
+            android:layout_marginTop="6dp"
+            android:inputType="textMultiLine"
+            android:text="Articular is a private ORganization establish at Nepal. Articuno was establish at year 2020 as a way for people to enjoy and read many different kinds of books As People are struck in their home, the application provide a fun way for people to learn"
+            android:textColor="#000"
+            android:textStyle="italic"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
